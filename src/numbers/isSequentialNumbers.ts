@@ -1,5 +1,3 @@
-import log from "../config/log"
-
 export default function isSequentialNumbers(numbers:number[]):boolean {
 
     let isSequential = true
@@ -8,7 +6,6 @@ export default function isSequentialNumbers(numbers:number[]):boolean {
         for(let i=1; i<numbers.length; i++) {
             const previousNumber=numbers[(i-1)]
             if(numbers[i]!==(previousNumber+1)) {
-                log.AddLogEntry("warn", `${numbers[i]}!==${(previousNumber+1)}`)
                 isSequential=false
             }
             
