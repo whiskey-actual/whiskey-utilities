@@ -5,6 +5,7 @@ import textToBoolean from "./textToBoolean";
 import getUniqueWordsFromString from "./getUniqueWordsFromString";
 import joinWithAnd from "./joinWithAnd";
 import getStringArrayCommonality from "./getStringArrayCommonality";
+import wordWrap from "./wordWrap";
 
 export default {
     doesRegexMatch,
@@ -13,5 +14,6 @@ export default {
     getUniqueWordsFromString,
     joinWithAnd,
     lowercaseFirstLetter,
-    textToBoolean,    
+    textToBoolean,
+    wordWrap
 }
