@@ -1,13 +1,17 @@
 import getAlphaArray from "./getAlphaArray";
-import cleanString from "./cleanString";
 import doesRegexMatch from "./doesRegexMatch";
 import lowercaseFirstLetter from "./lowercaseFirstLetter";
 import textToBoolean from "./textToBoolean";
+import getUniqueWordsFromString from "./getUniqueWordsFromString";
+import joinWithAnd from "./joinWithAnd";
+import getStringArrayCommonality from "./getStringArrayCommonality";
 
 export default {
-    getAlphaArray,
-    cleanString,
     doesRegexMatch,
+    getAlphaArray,
+    getStringArrayCommonality,
+    getUniqueWordsFromString,
+    joinWithAnd,
     lowercaseFirstLetter,
-    textToBoolean
+    textToBoolean,    
 }

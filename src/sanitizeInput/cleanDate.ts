@@ -1,4 +1,4 @@
-import isInvalidDate from "./isInvalidDate"
+import isInvalidDate from "../dates/isInvalidDate"
 
 export default function cleanDate(objectToClean:any):Date|undefined {
     let output:Date|undefined=undefined

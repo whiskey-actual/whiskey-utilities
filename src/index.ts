@@ -3,11 +3,17 @@ import progress from './progress';
 import strings from './strings';
 import objects from './objects';
 import functions from './functions';
+import filesystem from './filesystem';
+import numbers from './numbers';
+import sanitizeInput from './sanitizeInput';
 
-export = {
+export default {
   dates,
-  progress,
-  strings,
+  filesystem,
+  functions,
+  numbers,
   objects,
-  functions
+  progress,
+  sanitizeInput,
+  strings,  
 }

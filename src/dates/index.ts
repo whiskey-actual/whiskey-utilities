@@ -1,4 +1,4 @@
-import cleanDate from "./cleanDate";
+import cleanDate from "../sanitizeInput/cleanDate";
 import datetimeDifferenceInSeconds from "./datetimeDifferenceInSeconds";
 import getMaxDateFromArray from "./getMaxDateFromArray";
 import getMaxDateFromObject from "./getMaxDateFromObject";
